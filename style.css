@@ -1,0 +1,48 @@
+*{
+	margin:auto;
+	font-family: "Trebuchet MS";
+}
+
+nav, footer{
+	height:80px;
+	background-color: #395c98;
+	color: white;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+}
+
+.image-card{
+	width: 15%;
+	height: 15%;
+	margin: 10px;
+	border-radius: 25px;
+	cursor: pointer;
+}
+
+.image-card:hover {
+	filter: brightness(50%); /*escurecer a imagem a qual o mouse esta sobreposto */
+	transform: scale(1.05);
+	transition: all ease 300ms;
+}
+	
+.centralized_container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: flex-start;/* Alinha os itens à esquerda do contêiner */
+}
+
+#title_page{
+	padding: 20px;
+	font-size:50px;
+	text-align: center;
+}
+
+#icon{
+	border-radius: 100px;
+	width: 64px;
+	height: 64px;
+}
+
